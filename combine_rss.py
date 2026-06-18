@@ -5,7 +5,8 @@ import email.utils
 from datetime import datetime, timezone
 
 RSS_URLS = [
-    "https://www.nytimes.com/services/xml/rss/nyt/Opinion.xml"
+    "https://www.nytimes.com/services/xml/rss/nyt/Opinion.xml",
+    "https://rss.nytimes.com/services/xml/rss/nyt/sunday-review.xml",
 ]
 
 ARCHIVE_PREFIX = "https://archive.is/o/N6yE6/"
